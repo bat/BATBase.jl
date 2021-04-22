@@ -1,0 +1,14 @@
+name = "BATBase"
+uuid = "b4d2a721-a957-46f4-b6b6-f139c9e7db21"
+version = "0.1.0"
+
+[deps]
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
