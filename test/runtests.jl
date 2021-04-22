@@ -3,5 +3,6 @@
 import Test
 
 Test.@testset "Package BATBase" begin
-    include("test_hello_world.jl")
+    include("my_mv_distribution_density.jl")
+    include("basetypes/test_basetypes.jl")
 end # testset

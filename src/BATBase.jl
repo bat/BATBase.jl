@@ -9,6 +9,15 @@ Template for Julia packages.
 """
 module BATBase
 
-include("hello_world.jl")
+using Random
+
+using ArraysOfArrays
+using Distributions
+using DocStringExtensions
+using StatsBase
+using ValueShapes
+
+include("basetypes/basetypes.jl")
+include("algotypes/algotypes.jl")
 
 end # module
