@@ -1,6 +1,6 @@
 name = "BATBase"
 uuid = "b4d2a721-a957-46f4-b6b6-f139c9e7db21"
-version = "0.1.1"
+version = "0.1.2"
 
 [deps]
 ArraysOfArrays = "65a8f2f4-9b39-5baf-92e2-a9cc46fdf018"
